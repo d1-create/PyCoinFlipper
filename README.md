@@ -1,5 +1,21 @@
+[Description](#pycoinflipper)
+[Prerequisites](#prerequisites)
+[Install Libraries](#libraries)
+[Usage](#usage)
+[Settings](#settings)
+[Performance](#performance)
+
+
+
 # PyCoinFlipper
 An Advanced Python program that flips coins and finds out the data from it. It takes advantage of directories and is my first big project where I made something with multiple libraries, files ,directories and it even had settings, which is a development in my learning of python hugely.
+# Prerequisites
+Python3.xx
+- Random Libary
+- Time Library
+- Os Library
+# Install Libraries
+Command: Pip install random os time
 # Usage
 simply enter the number of coins you want to calculate and then it will create the following data:
 - Number of heads
@@ -9,15 +25,6 @@ simply enter the number of coins you want to calculate and then it will create t
 # Settings
 If you want to change the settings after disabling the startup text you can go into settings.txt.
 Currently there are 2 settings available.
-# Prerequisites
-Python3.xx
-- Random Libary
-- Time Library
-- Os Library
-# Install Libraries
-Command: Pip install random os time
-# Advancements
-Hopefully I can edit the project to use a GUI. For now, a few bugs/glitches can be fixed 
 # Peformance
 Single-Core Performance on an intel core i5-3770 (explicitly handled threads are not used in this program for better performance)
 | Number Of Coins  | Time Taken(seconds) |

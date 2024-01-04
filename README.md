@@ -13,7 +13,11 @@ Python3.xx
 - Random Libary
 - Time Library
 - Os Library
-*Command to install*: Pip install random os time
+**Installation in Pip**
+```bash
+pip install random os time
+```
+
 # Usage
 simply enter the number of coins you want to calculate and then it will create the following data:
 - Number of heads

@@ -3,5 +3,7 @@ A Python program to flip coins and return data such as the relativefrequency and
 # Prerequisites
 Python3.xx
 -- Random Libary
+-- Time Library
+-- Os Library
 # Install Libraries
-Command: Pip install random
+Command: Pip install random os time

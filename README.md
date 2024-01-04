@@ -1,9 +1,9 @@
-[Description](#pycoinflipper)
-[Prerequisites](#prerequisites)
-[Install Libraries](#libraries)
-[Usage](#usage)
-[Settings](#settings)
-[Performance](#performance)
+- [Description](#pycoinflipper)
+- [Prerequisites](#prerequisites)
+- [Install Libraries](#install libraries)
+- [Usage](#usage)
+- [Settings](#settings)
+- [Performance](peformance)
 
 
 

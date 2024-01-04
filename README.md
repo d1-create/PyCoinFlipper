@@ -14,7 +14,7 @@ Python3.xx
 - Time Library
 - Os Library
 **Installation in Pip**
-```bash
+```python
 pip install random os time
 ```
 

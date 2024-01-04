@@ -16,3 +16,13 @@ Python3.xx
 - Os Library
 # Install Libraries
 Command: Pip install random os time
+# Advancements
+Hopefully I can edit the project to use a GUI. For now, a few bugs/glitches can be fixed 
+# Peformance
+Single-Core Performance on an intel core i5-3770 (explicitly handled threads are not used in this program for better performance)
+| Number Of Coins  | Time Taken(seconds) |
+| ------------- | ------------- |
+| 10000  | 0.01007278  |
+| 100000  | 0.093970905  |
+| 1000000  | 0.838523339  |
+| 10000000  | 8.600184503  |

@@ -1,0 +1,2 @@
+IsDebug = True
+AskDebug = True

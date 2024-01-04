@@ -1,6 +1,6 @@
 - [Description](#pycoinflipper)
 - [Prerequisites](#prerequisites)
-- [Install Libraries](#installlibraries)
+- [Installation Commands](#installation commands)
 - [Usage](#usage)
 - [Settings](#settings)
 - [Performance](peformance)
@@ -14,7 +14,7 @@ Python3.xx
 - Random Libary
 - Time Library
 - Os Library
-# Install Libraries
+# Installation Commands
 Command: Pip install random os time
 # Usage
 simply enter the number of coins you want to calculate and then it will create the following data:

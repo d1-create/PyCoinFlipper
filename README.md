@@ -31,7 +31,7 @@ Currently there are 2 settings available.
 Single-Core Performance on an intel core i5-3770 (explicitly handled threads are not used in this program for better performance)
 | Number Of Coins  | Time Taken(seconds) |
 | ------------- | ------------- |
-| 10000  | 0.01007278  |
-| 100000  | 0.093970905  |
-| 1000000  | 0.838523339  |
-| 10000000  | 8.600184503  |
+| 10000  | 0.01007  |
+| 100000  | 0.09397  |
+| 1000000  | 0.8385  |
+| 10000000  | 8.6002  |

@@ -2,7 +2,7 @@
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Settings](#settings)
-- [Performance](performance)
+- [Performance](#performance)
 
 
 

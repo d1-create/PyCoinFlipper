@@ -4,13 +4,14 @@ import os
 import time
 import configparser
 
-#important variables for runtime 
-IsDebug = True
-AskDebug = True
 #modules to import
-import modules.startdebug as DebugFile
+import modules.debug.startdebug as DebugFile
 import settings.settings as settings
-from modules.functions import *
+#import main features
+from modules.features.main.getinput import *
+from modules.features.main.createdata import *
+from modules.features.main.output import *
+#import extra features
 #set important variables
 IsDebug = settings.IsDebug
 AskDebug = settings.AskDebug

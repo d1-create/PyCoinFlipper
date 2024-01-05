@@ -42,8 +42,5 @@ def Output(data):
         if(TypeOfOutput == "TEXT"):
             datafile = open("CoinDataFile.txt", "wt")
             #open it for writing and write all the data
-            datafile.write(f"CoinsFlipped: {str(data['CoinsToFlip'])}\n")
-            datafile.write(f"Heads: {str(data['Heads'])}\n")
-            datafile.write(f"Tails: {str(data['Tails'])}\n")
-            datafile.write(f"Total: {str(data['Total'])}\n")
-            datafile.write(f"CoinDataList: {str(data['CoinDataList'])}\n")
+            for name,value in data.items():
+                datafile.write(f"{name}: {str(value)}\n")

@@ -1,8 +1,5 @@
 #libraries
-import random
 import os
-import time
-import configparser
 
 #modules to import
 import modules.debug.startdebug as DebugFile

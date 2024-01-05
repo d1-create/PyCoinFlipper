@@ -1,4 +1,4 @@
-import time, random, os
+import time, random
 
 #get the input from the user and return the coin value
 def GetInput():

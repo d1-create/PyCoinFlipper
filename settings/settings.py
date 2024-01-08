@@ -1,3 +1,3 @@
-IsDebug = True
+IsDebug = False
 AskDebug = True
 

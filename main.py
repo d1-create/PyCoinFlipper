@@ -11,7 +11,7 @@ import modules.features.relativefreq as relativefrequency #relative frequency
 IsDebug = settings.IsDebug
 AskDebug = settings.AskDebug
 #ask to disable debug if settings turned on
-DebugFile.StartDebug(IsDebug,AskDebug)
+IsDebug, AskDebug = DebugFile.StartDebug(IsDebug,AskDebug)
 os.system("clear")
 
 def Main():

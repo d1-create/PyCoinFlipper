@@ -26,9 +26,12 @@ simply enter the number of coins you want to calculate and then it will create t
 - Number of tails
 - Total number of heads and tails (total coin count)
 - List of all the 1's and 2's in the coin data
-## Settings
-If you want to change the settings after disabling the startup text you can go into settings.txt.
-Currently there are 2 settings available.
+# Command to Run(Ubuntu/Linux)
+```
+python3 main.py 
+```
+# Change Settings
+find the settings.py under the settings folder and change the values in it to True Or False; enabling Debug lets you see the time taken for the flipping.
 ## Performance
 Single-Core Performance on an intel core i5-3770 (explicitly handled threads are not used in this program for better performance)
 | Number Of Coins  | Time Taken(seconds) |

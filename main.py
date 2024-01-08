@@ -2,10 +2,10 @@
 import os
 
 #modules to import
-import modules.debug.startdebug as DebugFile
-import settings.settings as settings
-import modules.features.mainfeatures as mainfeatures
-import modules.features.relativefreq as relativefrequency
+import modules.debug.startdebug as DebugFile #debugging process
+import settings.settings as settings #settings process 
+import modules.features.mainfeatures as mainfeatures #main feature
+import modules.features.relativefreq as relativefrequency #relative frequency
 #import extra features
 #set important variables
 IsDebug = settings.IsDebug
@@ -15,8 +15,9 @@ DebugFile.StartDebug(IsDebug,AskDebug)
 os.system("clear")
 
 def Main():
-    #data stored in a dictionary
-    data = {"CoinsToFlip":None,"Heads":None, "HeadsRel":None, "TailsRel":None,"Tails":None,"Total":None,"CoinDataList":None}
+
+    #data stored locally in a dictionary
+    data = {"CoinsToFlip":int,"Heads":int, "HeadsRel":float, "TailsRel":float,"Tails":int,"Total":int,"CoinDataList":list}
     #enter coins to flip data
     data["CoinsToFlip"] = mainfeatures.GetInput()
     print(data["CoinsToFlip"])
@@ -28,4 +29,5 @@ def Main():
 
     #thank the user and clear everything
     print("Thanks for using this software!" )
+
 Main() 

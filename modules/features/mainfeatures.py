@@ -9,8 +9,8 @@ def GetInput():
 def CreateData(CoinsToFlip, IsDebug):
     start = time.process_time()
     CoinData = []
-    heads = 0
-    tails = 0
+    heads: int = 0
+    tails: int = 0
 
     #do the loop that creates all the data and the list
     for i in range(CoinsToFlip):

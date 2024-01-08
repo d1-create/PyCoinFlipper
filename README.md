@@ -5,7 +5,8 @@
 - [Performance](#performance)
 
 
-
+## Status
+Finished! I don't know what to do next but this was an eye-opening experiment where i actually completed a python project, even with the basics of both python and github as i just pushed everything to the master branch. Maybe i'll do better next time!
 ## PyCoinFlipper
 An Advanced Python program that flips coins and finds out the data from it. It takes advantage of directories and is my first big project where I made something with multiple libraries, files ,directories and it even had settings, which is a development in my learning of python hugely.
 ## Prerequisites
@@ -36,3 +37,5 @@ Single-Core Performance on an intel core i5-3770 (explicitly handled threads are
 | 100000  | 0.09397  |
 | 1000000  | 0.8385  |
 | 10000000  | 8.6002  |
+| 100000000  | 84.2302  |
+A test of 1000000 coins is printed out in a text file called CoinDataFile.txt
